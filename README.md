@@ -1,6 +1,6 @@
 # StrBcrypt
 A Wrapper for the bcrypt python library that acts as a lazy shortcut
-for fastapi and other applications that need to hash password and
+for fastapi and other applications that need to hash passwords and
 verify them.
 
 ## Why
