@@ -21,7 +21,7 @@ if has_module("rsloop"):
 
     PARAMS.append(
         pytest.param(
-            ("asyncio", {"loop_factory": rsloop.new_event_loop}), id="asyncio+uvloop"
+            ("asyncio", {"loop_factory": rsloop.new_event_loop}), id="asyncio+rsloop"
         )
     )
 
