@@ -75,5 +75,5 @@ jobs:
       env:
         COLOR: yes
         PIP_USER: 1
-      run: uv run pytest
+      run: uv run pytest -vv
       shell: bash
